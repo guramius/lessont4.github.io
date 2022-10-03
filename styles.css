@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.topImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    z-index: -1;
+}
+.bottomImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    z-index: -1;
+}
+.mainContainer {
+    border-radius: 15px;
+    width: 350px;
+    background: white;
+    overflow: hidden;
+}
+.patternCard {
+    max-width: 100%; 
+}
+.imageContainer {
+    position: relative;
+}
+.avatar {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    border: 6px solid white;
+    border-radius: 100%;
+}
+.abutVictor {
+    margin-top: 72px;
+    text-align: center;
+}
+.abutVictor h1 {
+    font-style: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+}
+.abutVictor h1 span {
+    color: #6B7082;
+    font-size: 18px;
+    line-height: 22px;
+}
+.city {
+    margin: 13px 0 28px 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7082;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 47px;
+    text-align: center;
+    border-top: 1px solid #E8E9EC;
+}
+.money {
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+}
+.description {
+    font-size: 10px;
+    line-height: 12px;
+    color: #6B7082;
+    letter-spacing: 1.5px;
+}
